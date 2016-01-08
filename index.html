@@ -5,93 +5,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <link href="css/styles.css" rel="stylesheet" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600italic,300,600,300italic,400' rel='stylesheet' type='text/css'>
   </head>
 
-  <header>
-    <h1>Oskar <br />&nbsp;&nbsp; Radon<h1>
-    <img src="img/alien-gif.gif" alt="A sweet 3D rotating gif of an alien emoji"
-  </header>
-
   <body>
+      <div class="jumbotron">
+        <h1><em>Oskar <br />&nbsp;&nbsp; Radon</em></h1>
+        <img src="img/alien-gif.gif" alt="A sweet 3D rotating gif of an alien emoji">
+      </div>
+
     <div class="container">
       <div class="row">
         <div class ="col-md-6">
-          <h3>ABOUT</h3>
-          <p>Hey I&rsquo;m Oskar, a developer and designer from Portland, OR.</p>
-          <p>I am currently a student at Epicodus, and I&rsquo;m <em>so stoked</em> to be learning how to develop and program!</p>
-          <p>My interests include: making art, biking, reading, and, of course, designing killer websites and apps.</p>
+          <h3>About</h3>
+          <p class="text-left">Hey I&rsquo;m Oskar, a developer and designer from Portland, OR.</p>
+          <p class="text-left">I am currently a student at Epicodus, and I&rsquo;m <strong><em>so stoked</em></strong> to be learning how to develop and program!</p>
+          <p class="text-left">My interests include:
+            <ol>
+              <li>making art</li>
+              <li>biking</li>
+              <li>reading</li>
+              <li>and, of course, designing killer websites and apps</li>
+            </p>
         </div>
         <div class ="col-md-6">
-          <h3>PROJECTS</h3>
-          <p>
-            <a href="">Vacation Site</a><br />
-            <em>HTML, CSS Bootstrap libraries</em><br />
-            A simple site for a place we would like to vacation using Bootstrap.
-          </p>
-          <p>
-            <a href="">Resume Site</a><br />
-            <em>HTML, CSS</em><br />
-            A simple site for a resume using HTML and CSS.
-          </p>
-          <p>
-            <a href="">About Me Markdown</a><br />
-            <em>Markdown</em><br />
-            A simple markdown document for an About Me page of a company.
-          </p>
-          <p>
-            <a href="">Animal Shelter Site</a><br />
-            <em>Html, CSS</em><br />
-            A simple site for an animal shelter using HTML and CSS.
-          </p>
-          <p>
-            <a href="">Interior Decorator Site</a><br />
-            <em>Html, CSS</em><br />
-            A simple site for an interior decorating business using HTML and CSS.
-          </p>
-          <p>
-            <a href="">Blogging Site</a><br />
-            <em>Html, CSS</em><br />
-            A simple blog using HTML and CSS.
-          </p>
-          <p>
-            <a href="">Favorite Band Site</a><br />
-            <em>Html, CSS</em><br />
-            A simple site for a band using HTML and CSS.
-          </p>
-          <p>
-            <a href="">Boring Lecture Site</a><br />
-            <em>Html, CSS</em><br />
-            A simple site about a boring lecture using HTML and CSS.
-          </p>
-          <p>
-            <a href="">Resort Site</a><br />
-            <em>Html, CSS</em><br />
-            A simple multi-page site for a resort using HTML and CSS.
-          </p>
-          <p>
-            <a href="">Cupcake Site</a><br />
-            <em>HTML, CSS</em><br />
-            A simple site using HTML and CSS.
-          </p>
-          <p>
-            <a href="">Cat Site</a><br />
-            <em>HTML, CSS</em><br />
-            A simple site using HTML and CSS.
-          </p>
-          <p>
-            <a href="">Cookie Recipe</a><br />
-            <em>HTML</em><br />
-            An HTML-only site for a cookie recipe.
-          </p>
+          <h3>Projects</h3>
+          <ul>
+            <li>
+            <p class="text-left">
+              <a href="">Vacation Site</a><br />
+              <em>HTML, CSS Bootstrap libraries</em><br />
+              A simple site for a place we would like to vacation using Bootstrap.
+            </p>
+            <li>
+            <p class="text-left">
+              <a href="">Resume Site</a><br />
+              <em>HTML, CSS</em><br />
+              A simple site for a resume using HTML and CSS.
+            </p>
+          </li>
+          <li>
+            <p class="text-left">
+              <a href="">About Me Markdown</a><br />
+              <em>Markdown</em><br />
+              A simple markdown document for an About Me page of a company.
+            </p>
+          </li>
+          <li>
+            <p class="text-left">
+              <a href="">Animal Shelter Site</a><br />
+              <em>Html, CSS</em><br />
+              A simple site for an animal shelter using HTML and CSS.
+            </p>
+          </li>
+          <li>
+            <p class="text-left">
+              <a href="">Interior Decorator Site</a><br />
+              <em>Html, CSS</em><br />
+              A simple site for an interior decorating business using HTML and CSS.
+            </p>
+          </li>
+          <li>
+            <p class="text-left">
+              <a href="">Blogging Site</a><br />
+              <em>Html, CSS</em><br />
+              A simple blog using HTML and CSS.
+            </p>
+          </li>
+          <li>
+            <p class="text-left">
+              <a href="">Favorite Band Site</a><br />
+              <em>Html, CSS</em><br />
+              A simple site for a band using HTML and CSS.
+            </p>
+          </li>
+          <li>
+            <p class="text-left">
+              <a href="">Boring Lecture Site</a><br />
+              <em>Html, CSS</em><br />
+              A simple site about a boring lecture using HTML and CSS.
+            </p>
+          </li>
+          <li>
+            <p class="text-left">
+              <a href="">Resort Site</a><br />
+              <em>Html, CSS</em><br />
+              A simple multi-page site for a resort using HTML and CSS.
+            </p>
+          </li>
+          <li>
+            <p class="text-left">
+              <a href="">Cupcake Site</a><br />
+              <em>HTML, CSS</em><br />
+              A simple site using HTML and CSS.
+            </p>
+          </li>
+          <li>
+            <p class="text-left">
+              <a href="">Cat Site</a><br />
+              <em>HTML, CSS</em><br />
+              A simple site using HTML and CSS.
+            </p>
+          </li>
+          <li>
+            <p class="text-left">
+              <a href="">Cookie Recipe</a><br />
+              <em>HTML</em><br />
+              An HTML-only site for a cookie recipe.
+            </p>
+          </li>
         </div>
       </div>
     </div>
+    <span><p class="text-center foot">&copy; 2016 Oskar Radon</p></span>
   </body>
-
-  <footer>
-    &copy; 2016 Oskar Radon
-  </footer>
-
 </html>
