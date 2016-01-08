@@ -1,27 +1,55 @@
 .container {
   max-width: 80%
+  background-color: white;
 }
 
 /* HEADER */
-header {
+
+.jumbotron {
   text-align: center;
+  height: 300px;
+  background-color: white;
+  background-image: url(../img/platelet.png);
+  background-size: 300%;
+  background-position: top;
 }
 
-header img {
-  max-width: 40px;
+.jumbotron img {
+  max-width: 35px;
+}
+
+.jumbotron h1 {
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 800;
+  font-size: 3em;
 }
 
 /* BODY */
 
-body p {
-  font-size: 24px;
+body h3 {
+  text-align: center;
+}
+
+body p, li {
+  font-size: 18px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
 }
 
 body a {
-  font-size: 24px;
+  font-size: 18px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
-  color: #028090;
+  color: blue;
+}
+
+a:hover {
+  color: blue;
+}
+
+/* FOOTER (actually a span lol) */
+.foot {
+font-size: 14px;
+margin: 20px;
 }
