@@ -55,7 +55,15 @@ a:hover {
 }
 
 /* FOOTER (actually a span lol) */
+
 .foot {
 font-size: 14px;
 margin: 20px;
+}
+
+img.hey {
+  float: right;
+  max-width: 75px;
+  margin-bottom: 6px;
+  margin-right: 5px;
 }
