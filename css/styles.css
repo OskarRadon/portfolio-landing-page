@@ -9,8 +9,8 @@
   text-align: center;
   height: 280px;
   background-color: white;
-  background-image: url(../img/platelet.png);
-  background-size: 300%;
+  background-image: url(../img/gold-foil.png);
+  background-size: 100%;
   background-position: top;
 }
 
@@ -66,4 +66,13 @@ img.hey {
   max-width: 75px;
   margin-bottom: 6px;
   margin-right: 5px;
+}
+
+/* MEDIA QUERIES */
+
+/* keeps the jumbotron background img from getting too small*/
+@media screen and (max-width:768px) {
+  .jumbotron {
+    background-size: 1000px;
+  }
 }
