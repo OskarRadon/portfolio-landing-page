@@ -48,6 +48,11 @@ a:hover {
   color: blue;
 }
 
+.projects li {
+  list-style: none;
+  text-indent: -1em;
+}
+
 /* FOOTER (actually a span lol) */
 .foot {
 font-size: 14px;
