@@ -25,12 +25,12 @@ Requirements:
 - Indentation and spacing of HTML and CSS is accurate.
 - Commits made regularly with clear messages that finish the phrase "It will…"
 - A project README that includes:
-> author name
-> project or program name
-> description of program
-> program setup instructions
-> link to site on GitHub Pages
-> copyright and license information
+- author name
+  - project or program name
+  - description of program
+  - program setup instructions
+  - link to site on GitHub Pages
+  - copyright and license information
 
 ## Setup Instructions
 
